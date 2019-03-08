@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity implements SelfieCallback {
 
     public void resultOnBoarding(ResultOnboarding result){
         Log.d("ANDIA", result.getMessage());
-        Toast toast = Toast.makeText(getApplicationContext(), result.getMessage(), Toast.LENGTH_SHORT);
+        Toast toast = Toast.makeText(getApplicationContext(), result.getMessage(), Toast.LENGTH_LONG);
         toast.show();
         if (result.getSuccess()){
             final SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity implements SelfieCallback {
 
     public void resultValidation(ResultValidation result){
         Log.d("ANDIA", result.getMessage());
-        Toast toast = Toast.makeText(getApplicationContext(), result.getMessage(), Toast.LENGTH_SHORT);
+        Toast toast = Toast.makeText(getApplicationContext(), result.getMessage(), Toast.LENGTH_LONG);
         toast.show();
     }
 
