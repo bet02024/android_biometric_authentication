@@ -8,8 +8,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/aar" />
             <option value="$PROJECT_DIR$/andiaexample" />
-            <option value="$PROJECT_DIR$/app-debug" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

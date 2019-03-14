@@ -3,10 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="io.andia.example">
 
-
+    <uses-feature android:name="android.hardware.camera"
+        android:required="true" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
+    <meta-data
+        android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+        android:value="face" />
 
 
     <application

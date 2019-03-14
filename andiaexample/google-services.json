@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "481751718958",
+    "firebase_url": "https://andiavalidation.firebaseio.com",
+    "project_id": "andiavalidation",
+    "storage_bucket": "andiavalidation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481751718958:android:4ec3f2eb315b70d7",
+        "android_client_info": {
+          "package_name": "io.andia.example"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "481751718958-4pdrgecjuq5o2kkt0cnl3p6tk6b9osk8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.andia.example",
+            "certificate_hash": "464c9aaf8bf83d4888b4074be3b7584f4e8282b5"
+          }
+        },
+        {
+          "client_id": "481751718958-s5s8ia39nffubhc2dusphldbkp4gah8j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApWsvNrk6ozNkbBMmk31tEtqA281ZRw64"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "481751718958-s5s8ia39nffubhc2dusphldbkp4gah8j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

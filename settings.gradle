@@ -1,1 +1,1 @@
-include ':andiaexample', ':app-debug'
+include ':andiaexample', ':aar'
