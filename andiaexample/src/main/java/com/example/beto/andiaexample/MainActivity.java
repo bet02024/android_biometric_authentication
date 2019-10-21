@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity implements SelfieCallback {
         onboardingButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0) {
-                String API_KEY = "XAiOiJKV1Q123iLCJhbGciOiJIUzI1NiJ9eFtZSI6ImNvcm123a123QwZy212e";
+                String API_KEY = "API_KEY";
                 SelfieValidator validator = new SelfieValidator();
                 validator.onboarding("API_KEY", MainActivity.this);
              }
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity implements SelfieCallback {
         validateButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0) {
-                String API_KEY = "XAiOiJKV1Q123iLCJhbGciOiJIUzI1NiJ9eFtZSI6ImNvcm123a123QwZy212e";
+                String API_KEY = "API_KEY";
                 SelfieValidator validator = new SelfieValidator();
                 String userId = preferences.getString("USERID", "");
                 Boolean onboarded = preferences.getBoolean("ONBOARDED", false);
